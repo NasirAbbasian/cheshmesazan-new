@@ -1,8 +1,10 @@
 
+import Logo from "@/assets/img/Logo.svg"
+import Image from "next/image"
 const Sidebar = () => {
     return (
         <aside className="w-1/5 flex flex-col items-center">
-				<img src="/img/Logo.svg" alt=""/>
+				<Image src={Logo} alt="logo"/>
 				<div className="bg-white p-3 shadow rounded-3xl w-full mt-5 h-full flex flex-col">
 					<div className="flex flex-col">
 						<a href="#"

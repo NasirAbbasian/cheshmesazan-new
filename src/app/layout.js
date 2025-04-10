@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body className={`antialiased`} >
         <div id="userContent" className="bg-pzinc w-full min-h-screen flex justify-center items-center p-5">
           <div className="bg-darkgray rounded-3xl p-5 flex w-full" style={{minHeight: "calc(100vh - 40px)"}}>
-            {/* <Sidebar ></Sidebar> */}
+            <Sidebar />
             {children}
           </div>
         </div>
